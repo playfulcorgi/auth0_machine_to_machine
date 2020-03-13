@@ -10,7 +10,7 @@ class Auth0BearerTokenError < StandardError; end
 
 class GenericError < Auth0BearerTokenError; end
 
-class Auth0BearerToken
+class Auth0MachineToMachine
   def getM2M!(config)
     tenant_name = config['tenant_name']
     client_id = config['client_id']
