@@ -1,6 +1,8 @@
+require_relative 'lib/auth0_machine_to_machine/version'
+
 Gem::Specification.new do |spec|
   spec.name = "auth0_machine_to_machine"
-  spec.version = "0.1.0"
+  spec.version = Auth0MachineToMachine::VERSION
   spec.authors = ["playfulcorgi"]
   spec.homepage = "https://github.com/playfulcorgi/auth0_machine_to_machine"
   spec.license = "MIT"
