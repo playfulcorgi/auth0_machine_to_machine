@@ -1,12 +1,11 @@
 # Based on https://auth0.com/docs/quickstart/backend/rails/02-using.
 
+require 'auth0_machine_to_machine/version'
 require 'uri'
 require 'net/http'
 require 'openssl'
 require 'json'
 require 'date'
-
-
 
 module Auth0MachineToMachine
   class Auth0BearerTokenError < StandardError; end
