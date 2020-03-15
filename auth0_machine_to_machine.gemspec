@@ -10,5 +10,5 @@ Gem::Specification.new do |spec|
   spec.summary = "Retrieves JWT bearer token from Auth0 for authenticating and authorizing requests."
   spec.files = ["lib/auth0_machine_to_machine.rb"]
   spec.require_paths = ["lib"]
-  spec.required_ruby_version = ">= 2.7.0"
+  spec.required_ruby_version = ">= 2.5.0"
 end
